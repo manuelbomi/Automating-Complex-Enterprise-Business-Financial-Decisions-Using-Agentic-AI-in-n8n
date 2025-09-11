@@ -12,9 +12,9 @@
 #### How to Use this Repository for Your Enterprise Buinesss/Financial Applications
 ##### By combining Agentic AI with workflow automation, enterprises can scale intelligent decision-making across finance, operations, and strategy without building bespoke systems from scratch. 
 
-##### In this discourse, we present a method by which you can clone the repository and apply the Agent it to automate and provide insight on enterprise financial and business decisions. 
+##### In this discourse, we present a method by which you can clone the repository and apply the Agent to your use case(s), to automate and provide insight on financial and business decisions in ypur enterprise. 
 
-##### We also provide several financial and business use cases. 
+##### We also provide several financial and business use cases and examples. 
 
 ##### In additional, we provide step by step method regarding how you can design the workflow in-house, in n8n for your enterprise use cases. 
 
