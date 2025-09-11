@@ -150,7 +150,9 @@ Output:
 ---
 > [!NOTE]
 > Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
----
+
+=======================================================================
+
 
 
 ### 2. Break Even Analysis
@@ -239,7 +241,7 @@ Output:
     If you need further analysis or assistance, feel free to ask!
 
 
-### 3. Loan Amortization
+### 4. Loan Amortization
 
 Prompt:
 
