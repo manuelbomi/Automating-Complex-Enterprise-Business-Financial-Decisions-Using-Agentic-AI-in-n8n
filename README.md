@@ -1,12 +1,24 @@
 # Automating Complex Enterprise Business & Financial Decisions Using Agentic AI in n8n
 
 ## Overview  📌 
-This repository contains an Agentic AI workflow built in n8n that automates complex enterprise business and financial decision-making. The workflow leverages large language models (LLMs), tools (calculator & code execution), and memory to analyze scenarios, generate insights, and provide actionable recommendations — all in real-time.
-By combining Agentic AI with workflow automation, enterprises can scale intelligent decision-making across finance, operations, and strategy without building bespoke systems from scratch.
+#### This repository contains an Agentic AI workflow built in n8n that automates complex enterprise business and financial decision-making. The workflow leverages large language models (LLMs), tools (calculator & code execution), and memory to analyze scenarios, generate insights, and provide actionable recommendations — all in real-time.
+
+### The workflow, designed in n8n is shown below:
+
+<img width="905" height="350" alt="Image" src="https://github.com/user-attachments/assets/f6686351-dc2c-49cb-b603-884c309233ae" />
+
+#### Using the Repository for Your Enterprise Buinesss/Financial Applications
+##### By combining Agentic AI with workflow automation, enterprises can scale intelligent decision-making across finance, operations, and strategy without building bespoke systems from scratch. 
+
+##### In this discourse, we present a method by which you can clone the repository and apply the Agent it to automate and provide insight on enterprise financial and business decisions. 
+
+##### We also provide several financial and business use cases. 
+
+##### In additional, we provide step by step method regarding how you can design the workflow in-house, in n8n for your enterprise use cases. 
 
 
 ## Key Features  🚀 
-    • ### Agentic AI Orchestration
+    • Agentic AI Orchestration
         ◦ LLM-powered reasoning using OpenAI’s gpt-4o-mini.
         ◦ Context-aware memory for handling multi-step conversations.
         ◦ Autonomous tool selection (Calculator & Code Tool) for solving analytical problems.
