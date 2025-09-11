@@ -60,13 +60,21 @@ The workflow is composed of:
 
 ## Why This Matters for Enterprises 📈
 Enterprises deal with massive volumes of financial, operational, and customer data. Traditional analysis pipelines require manual effort or expensive custom software. This Agentic AI workflow delivers:
+
     • Scalability: Automates decision-making across departments.
+    
     • Flexibility: Integrates with enterprise systems (ERP, CRM, finance databases).
+    
     • Cost Efficiency: Reduces reliance on manual analysis or retraining ML models.
+    
     • Real-Time Decisions: Handles business scenarios dynamically with LLM reasoning + automated tools.
+    
 When extended with vector databases, enterprises can achieve:
+
     • Retrieval-Augmented Generation (RAG) for domain-specific insights.
+    
     • Real-time updates from structured and unstructured data.
+    
     • Lower total cost of ownership by avoiding repeated retraining of models.
 
 ## Getting Started 📥
@@ -125,6 +133,9 @@ Output:
         • NPV: $206,512.21
         • IRR: 18.33%
         If you have any more questions or need further assistance, feel free to ask!
+
+    > [!NOTE]
+    > Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
 
 3. Break-Even Analysis
 Prompt:
