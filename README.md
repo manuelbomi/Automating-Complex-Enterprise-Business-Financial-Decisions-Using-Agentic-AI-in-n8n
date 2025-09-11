@@ -20,16 +20,18 @@
 
 
 ## Key Features  🚀 
-    • Agentic AI Orchestration
+    • **Agentic AI Orchestration**
         ◦ LLM-powered reasoning using OpenAI’s gpt-4o-mini.
         ◦ Context-aware memory for handling multi-step conversations.
         ◦ Autonomous tool selection (Calculator & Code Tool) for solving analytical problems.
+        
     • Financial & Business Analysis Tools
         ◦ Investment Analysis: NPV & IRR calculations for capital projects.
         ◦ Break-Even Analysis: Unit & revenue thresholds for profitability.
         ◦ Marketing ROI Forecasting: Campaign payback & ROI estimation.
         ◦ Loan Amortization: Monthly payments, amortization schedules, and interest breakdown.
         ◦ Pricing Strategy: Profitability & volume sensitivity analysis.
+        
     • Enterprise-Ready Design
         ◦ Built entirely in n8n, ensuring scalability, automation, and easy integration with enterprise systems (databases, CRMs, ERPs, etc.).
         ◦ Extensible with vector databases (e.g., Pinecone) for Retrieval-Augmented Generation (RAG) when connected to enterprise data sources.
