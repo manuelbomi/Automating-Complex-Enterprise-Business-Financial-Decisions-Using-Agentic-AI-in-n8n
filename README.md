@@ -45,12 +45,19 @@
     5. Pricing & Profitability Decisions: Model “what-if” scenarios for product pricing.
 
 ## Workflow Structure  🛠️ 
+
 The workflow is composed of:
+
     • Chat Input – Starts the interaction with the Agent.
+    
     • AI Agent – The core orchestration layer that routes tasks.
+    
     • OpenAI Chat Model – LLM reasoning engine.
+    
     • Simple Memory – Maintains short-term conversation state.
+    
     • Calculator Tool – For arithmetic and financial calculations.
+    
     • Code Tool (Python) – For advanced computations like IRR, amortization, and forecasting.
 
 ## Repository Contents  📂 
