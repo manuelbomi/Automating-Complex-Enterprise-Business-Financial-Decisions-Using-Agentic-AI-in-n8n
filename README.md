@@ -283,10 +283,15 @@ For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment 
         ◦ Based on this structure, here is a simplified look at the first few months of the amortization schedule:
         
 
-| Syntax | Description | Example |
-| :------- | :----------: | --------: |
-| Header   | Title        | Right     |
-| Paragraph| Text         | Aligned   |
+| Monthly | Payment | Interest Paid | Principal Paid | Remaining Balance |
+| :------- | :----------: | :--------: | :----------: | :----------: |
+| 1   | $5,799.84       | $1500.00    | $4,299.84 | $295,700.16 |
+| 2 | $5.799.84         |   $1500.00    | $4,299.84 | $295,700.16 | 
+| 2 | $5.799.84         |   $1500.00    | $4,299.84 | $295,700.16 | 
+| 2 | $5.799.84         |   $1500.00    | $4,299.84 | $295,700.16 | 
+| 2 | $5.799.84         |   $1500.00    | $4,299.84 | $295,700.16 | 
+| ... | ...        |  ...  | ... | ... | 
+| 60 | $5.799.84         |   $1500.00    | $4,299.84 | $295,700.16 | 
 
 
                 ◦ 
