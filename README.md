@@ -146,10 +146,8 @@ Output:
         If you have any more questions or need further assistance, feel free to ask!
     
 ---
-
 > [!NOTE]
-> ### Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
-
+> Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
 ---
 
 3. Break-Even Analysis
