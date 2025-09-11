@@ -407,9 +407,9 @@ Output:
 
 ## Why This Matters for Enterprise Applications 🎯 
 
-### These examples show how Agentic AI workflows in n8n can handle complex business and financial decisions without requiring specialized financial software. 
+#### These examples show how Agentic AI workflows in n8n can handle complex business and financial decisions without requiring specialized financial software. 
 
-### The agent autonomously selects the right tool (calculator or code), performs reasoning, and delivers clear, actionable outputs.
+#### The agent autonomously selects the right tool (calculator or code), performs reasoning, and delivers clear, actionable outputs.
 
 
 --
