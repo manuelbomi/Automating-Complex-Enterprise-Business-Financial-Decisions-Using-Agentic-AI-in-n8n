@@ -122,7 +122,7 @@ Output:
     • IRR ≈ 14.5%
     • ✅ The project is financially viable since IRR > discount rate.
 
-    ### Example of how the question was posed at the Agent's prompt:
+### Example of how the question was posed at the Agent's prompt:
     I am evaluating a business expansion project that requires an upfront investment of $800,000 and will generate annual cash flows of $150,000 for 10 years. The discount rate is 8%.
    
     Can you: 1. Calculate the Net Present Value (NPV)?
