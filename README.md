@@ -281,8 +281,9 @@ For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment 
         ◦ The loan is amortized over 5 years (60 months).
         
         ◦ Based on this structure, here is a simplified look at the first few months of the amortization schedule:
+        
 
-           | Syntax | Description | Example |
+| Syntax | Description | Example |
 | :------- | :----------: | --------: |
 | Header   | Title        | Right     |
 | Paragraph| Text         | Aligned   |
