@@ -397,13 +397,15 @@ Output:
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/805f042d-321a-4bf6-8219-2a0c60b1e4a1" />
 
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/f45982d5-d4b9-489d-85b4-915579571390" />
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1fbd2074-25cd-48f4-9f71-584ba2b59bf3" />
 ---
 
-### Pricing Strategy 
+### Loan Amortization
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/6befc05b-0e3b-4397-aa9b-cef5d6af72cb" />
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/f45982d5-d4b9-489d-85b4-915579571390" />
+
 
 ---
 
