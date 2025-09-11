@@ -150,6 +150,46 @@ Output:
 > Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
 ---
 
+
+### 2. Break Even Analysis
+Prompt:
+A product sells for $200, costs $120 per unit to make, and fixed costs are $50,000. How many units do we need to break even?
+
+Agent Reasoning:
+    • Identifies break-even formula: Fixed Costs ÷ (Price – Variable Cost).
+    • Uses Calculator Tool to compute.
+    
+Output:
+    • Break-even units = 625
+    • ✅ The business needs to sell 625 units to cover costs. 
+
+
+### Example of how the question was posed at the Agent's prompt:
+      My company is launching a new product. The fixed costs are $250,000, the variable cost per unit is $45, and the selling price per unit is $120. 
+      
+      Can you: 1. Calculate the break-even point in units and dollars? 
+      
+               2. Determine how many units we need to sell to earn a profit of $100,000? 
+               
+               3. Use all the available tools including calculator and code tool
+   
+     ### AI Agent's Response:
+      1. Break-Even Point:
+        ◦ The break-even point is approximately 3,334 units.
+        ◦ In terms of dollars, the break-even revenue can be calculated as: [ \text{Break-Even Revenue} = \text{Break-Even Units} \times \text{Selling Price} = 3344 \times 120 \approx $400,000 ]
+      2. To earn a profit of $100,000, you need to sell approximately 4,667 units.
+     
+   Summary:
+    • Break-Even Point: ≈ 3,334 units (≈ $400,000 revenue)
+    • Units to Earn $100,000 Profit: ≈ 4,667 units
+    
+   If you need further assistance or analyses, feel free to ask!
+
+---
+> [!NOTE]
+> Interested reader can compare the Agent's evaluation with the python analysis (break_even_analysis.py); also available in the repository
+---
+
 3. Break-Even Analysis
 Prompt:
 A product sells for $200, costs $120 per unit to make, and fixed costs are $50,000. How many units do we need to break even?
