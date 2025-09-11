@@ -95,32 +95,30 @@ When extended with vector databases, enterprises can achieve:
         ◦ (Optional) Google Calendar / Pinecone for extended enterprise use.
     4. Trigger the chat input node to start interacting with the Agent.
 
-### However, if the user prefers to build the agent in n8n from ground up, users can start with the primer here: https://github.com/manuelbomi/An-Enterprise-Agentic-AI-Primer-with-n8n
-### Use the primer to build the Agent up to the calculator level shown below:
+#### However, if the user prefers to build the agent in n8n from ground up, users can start with the primer here: https://github.com/manuelbomi/An-Enterprise-Agentic-AI-Primer-with-n8n
+#### Use the primer to build the Agent up to the calculator level shown below:
 
 <img width="707" height="381" alt="Image" src="https://github.com/user-attachments/assets/7ccaba39-b772-4454-85b3-5f008173cbc5" />
 ---
 
-### After accomplishing the primer workflow, then do the following brief steps to complete the agent:
+#### After accomplishing the primer workflow, then do the following brief steps to complete the agent:
 
-### Add Code Tool to the agent
+#### (i) Add Code Tool to the agent
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/82ebf3d3-ace4-4763-beb9-c8a1633fd8a7" />
 ---
 
-### Increase the Agent's memory length
+#### (ii) Increase the Agent's memory length
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/6ddeab15-17b3-4a78-a976-52dda120ac95" />
 
 ---
 
-### Obtain the enterprise financial/business Agent as shown below:
+#### Obtain the enterprise financial/business Agent as shown below:
 
 <img width="905" height="350" alt="Image" src="https://github.com/user-attachments/assets/0bc7915d-425f-410a-9893-3c1e66e8c9aa" />
 
 ---
-
-
 
 
 ## Future Extensions 🔮 
@@ -128,8 +126,6 @@ When extended with vector databases, enterprises can achieve:
     • RAG-powered Finance Assistant capable of retrieving company-specific KPIs.
     • Integration with BI dashboards for automated reporting.
     • Multi-Agent Collaboration for handling cross-department workflows.
-
-
 
 
 
@@ -154,11 +150,11 @@ Output:
 ### Example of how the question was posed at the Agent's prompt:
     I am evaluating a business expansion project that requires an upfront investment of $800,000 and will generate annual cash flows of $150,000 for 10 years. The discount rate is 8%.
    
-    Can you: 1. Calculate the Net Present Value (NPV)?
+    Can you: 1. Calculate the Net Present Value (NPV)
    
-             2. Calculate the Internal Rate of Return (IRR)?
+             2. Calculate the Internal Rate of Return (IRR)
    
-             3. Advise whether this is a financially viable project?
+             3. Advise whether this is a financially viable project
 
              4. Use all available tools including the code too
    
