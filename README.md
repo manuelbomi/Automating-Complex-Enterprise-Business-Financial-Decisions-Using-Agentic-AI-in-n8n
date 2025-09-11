@@ -120,6 +120,7 @@ Agent Reasoning (tools used):
 Output:
     • NPV ≈ $6,137
     • IRR ≈ 14.5%
+    
     • ✅ The project is financially viable since IRR > discount rate.
 
 ### Example of how the question was posed at the Agent's prompt:
@@ -143,6 +144,7 @@ Output:
     Summary:
         • NPV: $206,512.21
         • IRR: 18.33%
+        
         If you have any more questions or need further assistance, feel free to ask!
     
 ---
@@ -161,6 +163,7 @@ Agent Reasoning:
     
 Output:
     • Break-even units = 625
+    
     • ✅ The business needs to sell 625 units to cover costs. 
 
 
@@ -175,13 +178,17 @@ Output:
    
      ### AI Agent's Response:
       1. Break-Even Point:
+      
         ◦ The break-even point is approximately 3,334 units.
         ◦ In terms of dollars, the break-even revenue can be calculated as: [ \text{Break-Even Revenue} = \text{Break-Even Units} \times \text{Selling Price} = 3344 \times 120 \approx $400,000 ]
+        
       2. To earn a profit of $100,000, you need to sell approximately 4,667 units.
      
    Summary:
     • Break-Even Point: ≈ 3,334 units (≈ $400,000 revenue)
+    
     • Units to Earn $100,000 Profit: ≈ 4,667 units
+    
     
    If you need further assistance or analyses, feel free to ask!
 
