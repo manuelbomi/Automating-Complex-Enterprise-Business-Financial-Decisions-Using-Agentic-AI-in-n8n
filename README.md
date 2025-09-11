@@ -198,7 +198,6 @@ Output:
 ---
 
 
-
 ### 3. Marketing ROI Forecasting
 Prompt:
 If we spend $100,000 on a campaign that generates $250,000 in sales, what’s the ROI and payback period?
@@ -239,17 +238,117 @@ Output:
     
     If you need further analysis or assistance, feel free to ask!
 
-      
 
-4. Loan Amortization
+### 3. Loan Amortization
+
 Prompt:
+
 For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment and total interest paid.
-Agent Reasoning:
-    • Uses Code Tool (Python) with amortization formula.
-Output:
+    Agent Reasoning:
+        • Uses Code Tool (Python) with amortization formula.
+        
+    Output:
+    
     • Monthly Payment ≈ $1,432
+    
     • Total Interest ≈ $143,680
+    
     • ✅ Useful for debt strategy planning.
+
+
+### Example of how the question was posed at the Agent's prompt:
+
+    I am taking a $300,000 business loan at a 6% annual interest rate, amortized over 5 years with monthly payments.
+    
+    Can you:
+    
+    1. Calculate the monthly payment?
+    
+    2. Generate an amortization schedule?
+    
+    3. Calculate the total interest paid over the loan period?
+   
+   ### AI Agent's Response:
+   
+    Monthly Payment: The monthly payment for the loan is approximately $5,799.84.
+    
+    1. Amortization Schedule:
+    
+        ◦ The loan amount is $300,000.
+        
+        ◦ The annual interest rate is 6%.
+        
+        ◦ The loan is amortized over 5 years (60 months).
+        
+        ◦ Based on this structure, here is a simplified look at the first few months of the amortization schedule:
+
+
+                ◦ 
+Month
+Payment
+Interest Paid
+Principal Paid
+Remaining Balance
+1
+$5,799.84
+$1,500.00
+$4,299.84
+$295,700.16
+2
+$5,799.84
+$1,478.50
+$4,321.34
+$291,378.82
+3
+$5,799.84
+$1,458.99
+$4,340.85
+$287,037.96
+4
+$5,799.84
+$1,435.19
+$4,364.65
+$282,673.31
+5
+$5,799.84
+$1,416.24
+$4,383.60
+$278,289.71
+...
+...
+...
+...
+...
+60
+$5,799.84
+$28.55
+$5,771.29
+$0.00
+       
+3. Total Interest Paid: The total interest paid over the loan period is approximately $47,990.04.
+   
+Summary:
+
+    • Monthly Payment: $5,799.84
+    
+    • Total Interest Paid: $47,990.04
+    
+If you need any further information or calculations, feel free to ask!
+
+
+
+
+
+
+Monthly Payment: The monthly payment for the loan is approximately $5,799.84.
+    1. Amortization Schedule:
+        ◦ The loan amount is $300,000.
+        ◦ The annual interest rate is 6%.
+        ◦ The loan is amortized over 5 years (60 months).
+        ◦ Based on this structure, here is a simplified look at the first few months of the amortization schedule:
+
+
+
 
 5. Pricing Strategy
 Prompt:
