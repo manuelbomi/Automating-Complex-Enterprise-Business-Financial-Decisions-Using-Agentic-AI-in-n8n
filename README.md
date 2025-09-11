@@ -95,6 +95,34 @@ When extended with vector databases, enterprises can achieve:
         ◦ (Optional) Google Calendar / Pinecone for extended enterprise use.
     4. Trigger the chat input node to start interacting with the Agent.
 
+### However, if the user prefers to build the agent in n8n from ground up, users can start with the primer here: https://github.com/manuelbomi/An-Enterprise-Agentic-AI-Primer-with-n8n
+### Use the primer to build the Agent up to the calculator level shown below:
+
+<img width="707" height="381" alt="Image" src="https://github.com/user-attachments/assets/7ccaba39-b772-4454-85b3-5f008173cbc5" />
+---
+
+### After accomplishing the primer workflow, then do the following brief steps to complete the agent:
+
+### Add Code Tool to the agent
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/82ebf3d3-ace4-4763-beb9-c8a1633fd8a7" />
+---
+
+### Increase the Agent's memory length
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/6ddeab15-17b3-4a78-a976-52dda120ac95" />
+
+---
+
+### Obtain the enterprise financial/business Agent as shown below:
+
+<img width="905" height="350" alt="Image" src="https://github.com/user-attachments/assets/0bc7915d-425f-410a-9893-3c1e66e8c9aa" />
+
+---
+
+
+
+
 ## Future Extensions 🔮 
     • Vector Database Integration (e.g., Pinecone, Weaviate) for enterprise data access.
     • RAG-powered Finance Assistant capable of retrieving company-specific KPIs.
