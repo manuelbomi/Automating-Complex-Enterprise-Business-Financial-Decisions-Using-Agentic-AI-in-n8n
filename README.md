@@ -7,6 +7,73 @@
 
 <img width="905" height="350" alt="Image" src="https://github.com/user-attachments/assets/f6686351-dc2c-49cb-b603-884c309233ae" />
 
+
+
+
+
+Agentic AI → TOGAF Mapping (Visual Concept) 
+
+
++------------------------+      +----------------------+
+| Phase A: Vision        |      | Chat Input Node      |
+|------------------------|      |--------------------|
+| Define enterprise AI   | ---> | User initiates agent|
+| objectives, agility,   |      +--------------------+
+| self-service intelligence|
++------------------------+
+
+           |
+           v
+
++------------------------+      +----------------------+
+| Phase B: Business Arch |      | AI Agent Node        |
+|------------------------|      |--------------------|
+| Identify workflows &   | ---> | Orchestrates tools, |
+| reusable capabilities  |      | memory, vector search|
++------------------------+
+
+           |
+           v
+
++------------------------+      +----------------------+
+| Phase C: Info Systems  |      | OpenAI Chat Model    |
+| Architecture           |      | Simple Memory Node   |
+|------------------------| ---> | Pinecone Vector Node |
+| Data architecture &    |      | Embeddings Node      |
+| application services   |      +--------------------+
++------------------------+
+
+           |
+           v
+
++------------------------+      +----------------------+
+| Phase D: Tech Arch     |      | n8n Orchestration    |
+|------------------------| ---> | Docker/K8s/Serverless|
+| Cloud-native design,   |      | Logging, credentials|
+| scalable, modular,     |      +--------------------+
+| secure                 |
++------------------------+
+
+           |
+           v
+
++------------------------+      +----------------------+
+| Phase E: Solutions     |      | Google Calendar Tools|
+|------------------------| ---> | Get Availability     |
+| Integration & tool     |      | Create Events Node  |
+| deployment             |      +--------------------+
++------------------------+
+
+           |
+           v
+
++------------------------+      +----------------------+
+| Phases F-H: Migration, |      | Incremental adoption |
+| Implementation & Change| ---> | Versioning, governance|
+|------------------------|      | Continuous RAG/Memory|
+| Rollout & evolution    |      +--------------------+
++------------------------+
+
 #### Using the Repository for Your Enterprise Buinesss/Financial Applications
 ##### By combining Agentic AI with workflow automation, enterprises can scale intelligent decision-making across finance, operations, and strategy without building bespoke systems from scratch. 
 
