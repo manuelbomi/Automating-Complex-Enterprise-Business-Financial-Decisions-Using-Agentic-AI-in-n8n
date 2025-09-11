@@ -20,7 +20,7 @@
 
 
 ## Key Features  🚀 
-    • **Agentic AI Orchestration**
+    • Agentic AI Orchestration
         ◦ LLM-powered reasoning using OpenAI’s gpt-4o-mini.
         ◦ Context-aware memory for handling multi-step conversations.
         ◦ Autonomous tool selection (Calculator & Code Tool) for solving analytical problems.
@@ -37,14 +37,14 @@
         ◦ Extensible with vector databases (e.g., Pinecone) for Retrieval-Augmented Generation (RAG) when connected to enterprise data sources.
         ◦ Modular design: additional tools and APIs can be added seamlessly.
 
-📊 Example Enterprise Use Cases
+## Example Enterprise Use Cases  📊
     1. Investment Evaluation: Automatically compute project viability using NPV & IRR.
     2. Operational Strategy: Run break-even and profit margin analyses for new products.
     3. Marketing Optimization: Forecast ROI and payback period for campaigns.
     4. Financial Risk Management: Analyze loans, interest payments, and debt strategies.
     5. Pricing & Profitability Decisions: Model “what-if” scenarios for product pricing.
 
-🛠️ Workflow Structure
+## Workflow Structure  🛠️ 
 The workflow is composed of:
     • Chat Input – Starts the interaction with the Agent.
     • AI Agent – The core orchestration layer that routes tasks.
@@ -53,12 +53,12 @@ The workflow is composed of:
     • Calculator Tool – For arithmetic and financial calculations.
     • Code Tool (Python) – For advanced computations like IRR, amortization, and forecasting.
 
-📂 Repository Contents
+## Repository Contents  📂 
     • Agentic_AI_workflow_1_Calculator.json → n8n workflow file (import directly into n8n).
     • Example financial decision prompts and AI outputs (see below).
     • Documentation for extending the workflow with enterprise integrations.
 
-📈 Why This Matters for Enterprises
+## Why This Matters for Enterprises 📈
 Enterprises deal with massive volumes of financial, operational, and customer data. Traditional analysis pipelines require manual effort or expensive custom software. This Agentic AI workflow delivers:
     • Scalability: Automates decision-making across departments.
     • Flexibility: Integrates with enterprise systems (ERP, CRM, finance databases).
@@ -69,7 +69,7 @@ When extended with vector databases, enterprises can achieve:
     • Real-time updates from structured and unstructured data.
     • Lower total cost of ownership by avoiding repeated retraining of models.
 
-📥 Getting Started
+## Getting Started 📥
     1. Clone this repo.
     2. Import the workflow file into your n8n instance:
         ◦ Go to n8n → Workflows → Import from File.
@@ -79,7 +79,7 @@ When extended with vector databases, enterprises can achieve:
         ◦ (Optional) Google Calendar / Pinecone for extended enterprise use.
     4. Trigger the chat input node to start interacting with the Agent.
 
-🔮 Future Extensions
+## Future Extensions 🔮 
     • Vector Database Integration (e.g., Pinecone, Weaviate) for enterprise data access.
     • RAG-powered Finance Assistant capable of retrieving company-specific KPIs.
     • Integration with BI dashboards for automated reporting.
@@ -89,7 +89,7 @@ When extended with vector databases, enterprises can achieve:
 
 
 
-💡 Usage Examples
+## Usage Examples  💡 
 Below are some examples of how the workflow can be used to automate enterprise business and financial decisions. Each example shows the user’s prompt, how the Agent reasons, and the final output.
 
 1. Investment Analysis (NPV & IRR)
@@ -103,7 +103,30 @@ Output:
     • IRR ≈ 14.5%
     • ✅ The project is financially viable since IRR > discount rate.
 
-2. Break-Even Analysis
+    ### Example of how the question was posed at the Agent's prompt:
+    I am evaluating a business expansion project that requires an upfront investment of $800,000 and will generate annual cash flows of $150,000 for 10 years. The discount rate is 8%.
+   
+    Can you: 1. Calculate the Net Present Value (NPV)?
+   
+             2. Calculate the Internal Rate of Return (IRR)?
+   
+             3. Advise whether this is a financially viable project?
+
+             4. Use all available tools including the code too
+   
+     ### AI Agent's Response:
+     1. Net Present Value (NPV): The NPV of the investment is approximately $206,512.21.
+        
+     3. Internal Rate of Return (IRR): The calculated IRR for this investment is approximately 18.33%.
+        
+     5. Financial Viability: Since the NPV is positive and the IRR exceeds the discount rate of 8%, the project is considered financially viable.
+        
+    Summary:
+        • NPV: $206,512.21
+        • IRR: 18.33%
+        If you have any more questions or need further assistance, feel free to ask!
+
+3. Break-Even Analysis
 Prompt:
 A product sells for $200, costs $120 per unit to make, and fixed costs are $50,000. How many units do we need to break even?
 Agent Reasoning:
@@ -113,7 +136,7 @@ Output:
     • Break-even units = 625
     • ✅ The business needs to sell 625 units to cover costs.
 
-3. Marketing ROI Forecasting
+4. Marketing ROI Forecasting
 Prompt:
 If we spend $100,000 on a campaign that generates $250,000 in sales, what’s the ROI and payback period?
 Agent Reasoning:
@@ -123,7 +146,7 @@ Output:
     • Payback period = < 1 year
     • ✅ Campaign is highly profitable.
 
-4. Loan Amortization
+5. Loan Amortization
 Prompt:
 For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment and total interest paid.
 Agent Reasoning:
@@ -133,7 +156,7 @@ Output:
     • Total Interest ≈ $143,680
     • ✅ Useful for debt strategy planning.
 
-5. Pricing Strategy
+6. Pricing Strategy
 Prompt:
 If we price a product at $50 with costs of $30 per unit, what’s the profit at 10,000 units sold?
 Agent Reasoning:
