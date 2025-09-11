@@ -282,48 +282,14 @@ For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment 
         
         ◦ Based on this structure, here is a simplified look at the first few months of the amortization schedule:
 
+           | Syntax | Description | Example |
+| :------- | :----------: | --------: |
+| Header   | Title        | Right     |
+| Paragraph| Text         | Aligned   |
+
 
                 ◦ 
-Month
-Payment
-Interest Paid
-Principal Paid
-Remaining Balance
-1
-$5,799.84
-$1,500.00
-$4,299.84
-$295,700.16
-2
-$5,799.84
-$1,478.50
-$4,321.34
-$291,378.82
-3
-$5,799.84
-$1,458.99
-$4,340.85
-$287,037.96
-4
-$5,799.84
-$1,435.19
-$4,364.65
-$282,673.31
-5
-$5,799.84
-$1,416.24
-$4,383.60
-$278,289.71
-...
-...
-...
-...
-...
-60
-$5,799.84
-$28.55
-$5,771.29
-$0.00
+
        
 3. Total Interest Paid: The total interest paid over the loan period is approximately $47,990.04.
    
