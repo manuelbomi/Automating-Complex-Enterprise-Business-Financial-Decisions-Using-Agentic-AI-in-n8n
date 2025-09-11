@@ -2,7 +2,7 @@
 
 
 
-📌 Overview
+📌 ## Overview
 This repository contains an Agentic AI workflow built in n8n that automates complex enterprise business and financial decision-making. The workflow leverages large language models (LLMs), tools (calculator & code execution), and memory to analyze scenarios, generate insights, and provide actionable recommendations — all in real-time.
 By combining Agentic AI with workflow automation, enterprises can scale intelligent decision-making across finance, operations, and strategy without building bespoke systems from scratch.
 
