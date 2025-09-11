@@ -100,12 +100,15 @@ When extended with vector databases, enterprises can achieve:
 ## Usage Examples  💡 
 Below are some examples of how the workflow can be used to automate enterprise business and financial decisions. Each example shows the user’s prompt, how the Agent reasons, and the final output.
 
-1. Investment Analysis (NPV & IRR)
+### 1. Investment Analysis (NPV & IRR)
+   
 Prompt:
 Evaluate a project with an initial investment of $50,000 and cash inflows of $15,000 per year for 5 years at a discount rate of 10%.
+
 Agent Reasoning (tools used):
     • Detects need for financial calculation.
     • Uses Code Tool to compute Net Present Value (NPV) and Internal Rate of Return (IRR).
+    
 Output:
     • NPV ≈ $6,137
     • IRR ≈ 14.5%
