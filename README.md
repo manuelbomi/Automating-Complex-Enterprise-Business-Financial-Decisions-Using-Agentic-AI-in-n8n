@@ -63,6 +63,7 @@ The workflow is composed of:
 ## Repository Contents  📂 
     • Agentic_AI_workflow_1_Calculator.json → n8n workflow file (import directly into n8n).
     • Example financial decision prompts and AI outputs (see below).
+    • Python evaluation of the examples
     • Documentation for extending the workflow with enterprise integrations.
 
 ## Why This Matters for Enterprises 📈
