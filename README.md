@@ -363,27 +363,10 @@ Output:
 
 
 
+## Why This Matters for Enterprise Applications 🎯 
 
-🎯 Why This Matters
-These examples show how Agentic AI workflows in n8n can handle complex business and financial decisions without requiring specialized financial software. 
+### These examples show how Agentic AI workflows in n8n can handle complex business and financial decisions without requiring specialized financial software. 
 
-The agent autonomously selects the right tool (calculator or code), performs reasoning, and delivers clear, actionable outputs.
+### The agent autonomously selects the right tool (calculator or code), performs reasoning, and delivers clear, actionable outputs.
 
-🚀 Quick Demo
-Here’s an another example conversation with the agent in action.
 
-User Prompt:
-“Evaluate a project with an initial investment of $50,000 and cash inflows of $15,000 per year for 5 years at a discount rate of 10%.”
-Agent Response (demo screenshot):
-The agent:
-    1. Understands the problem.
-    2. Selects the Code Tool for financial calculations.
-    3. Returns a clear, actionable answer:
-        ◦ NPV ≈ $6,137
-        ◦ IRR ≈ 14.5%
-        ◦ ✅ Investment is profitable since IRR > discount rate.
-
-📌 How to add visuals:
-    • If you want a GIF demo: record a short interaction using ScreenToGif (Windows), Kap (Mac), or OBS. Save as demo.gif and link in the README like:
-      ![Quick Demo](demo/demo.gif)
-    • If you want screenshots: take 2–3 key screenshots (demo-1.png, demo-2.png) and place them in a /demo folder. Then reference them in the README.
