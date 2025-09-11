@@ -151,9 +151,8 @@ Output:
 > [!NOTE]
 > Interested reader can compare the Agent's evaluation with the python analysis (investment_analysis_npv_irr.py); also available in the repository
 
-=======================================================================
-
-
+---
+---
 
 ### 2. Break Even Analysis
 Prompt:
@@ -198,6 +197,7 @@ Output:
 > [!NOTE]
 > Interested reader can compare the Agent's evaluation with the python analysis (break_even_analysis.py); also available in the repository
 ---
+---
 
 
 ### 3. Marketing ROI Forecasting
@@ -239,6 +239,9 @@ Output:
     3. Profitability: Given the negative ROI, the campaign is not expected to be profitable, as the anticipated returns do not cover the initial investment.
     
     If you need further analysis or assistance, feel free to ask!
+
+---
+---
 
 
 ### 4. Loan Amortization
@@ -306,24 +309,59 @@ Summary:
     
 If you need any further information or calculations, feel free to ask!
 
+---
+---
 
 
-
-
-
-
-
-
-
-
-5. Pricing Strategy
+### 5. Pricing Strategy
 Prompt:
 If we price a product at $50 with costs of $30 per unit, what’s the profit at 10,000 units sold?
+
 Agent Reasoning:
+
     • Simple arithmetic via Calculator Tool.
+    
 Output:
     • Profit = $200,000
+    
     • ✅ Clear margin-based decision-making.
+
+
+### Example of how the question was posed at the Agent's prompt:
+     I am considering lowering the price of a product from $40 to $35 to boost volume. My variable cost per unit is $20 and fixed costs are $100,000. I currently sell 5,000 units per month.
+     
+    Can you:
+    
+    1. Estimate the new break-even point if we lower the price?
+    
+    2. Calculate how many additional units I need to sell to maintain the same profit level?
+
+   ### AI Agent's Response:
+   
+    1. New Break-Even Point:
+    
+        ◦ New selling price = $35
+        ◦ Variable cost per unit = $20
+        ◦ Contribution Margin per unit = Selling Price - Variable Cost = $35 - $20 = $15
+        ◦ Break-even point in units = Fixed Costs / Contribution Margin = $100,000 / $15 = 6,667 units.
+        
+    2. Additional Units to Maintain Profit Level:
+    
+        ◦ Current profit can be calculated as: [ \text{Current Profit} = (\text{Selling Price} - \text{Variable Cost}) \times \text{Current Units Sold} - \text{Fixed Costs} ]
+        ◦ Current profit = ((40 - 20) \times 5,000 - 100,000 = 100,000 - 100,000 = 0) (this indicates zero profit at current pricing).
+        ◦ To maintain the same profit level after reducing the price, calculate the new required volume: [ \text{New Required Volume} = ( 100,000 + \text{Fixed Costs}) / (\text{New Selling Price} - \text{Variable Cost}) ]
+        ◦ Additional Units to Sell = New Required Volume - Current Volume = 6,667 - 5,000 = 1,667 additional units.
+
+    Summary:
+    • New Break-Even Point: 6,667 units
+    • Additional Units to Maintain Same Profit Level: 1,667 units
+    
+    If you have further questions or need more assistance, feel free to ask!
+
+---
+---
+
+
 
 
 🎯 Why This Matters
