@@ -156,7 +156,7 @@ Output:
    
              3. Advise whether this is a financially viable project
 
-             4. Use all available tools including the code too
+             4. Use all available tools including the code tool
    
      ### AI Agent's Response:
      1. Net Present Value (NPV): The NPV of the investment is approximately $206,512.21.
