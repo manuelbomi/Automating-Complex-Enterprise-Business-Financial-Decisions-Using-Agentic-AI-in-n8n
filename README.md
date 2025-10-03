@@ -138,11 +138,15 @@ Prompt:
 Evaluate a project with an initial investment of $50,000 and cash inflows of $15,000 per year for 5 years at a discount rate of 10%.
 
 Agent Reasoning (tools used):
+
     • Detects need for financial calculation.
+    
     • Uses Code Tool to compute Net Present Value (NPV) and Internal Rate of Return (IRR).
     
 Output:
+
     • NPV ≈ $6,137
+    
     • IRR ≈ 14.5%
     
     • ✅ The project is financially viable since IRR > discount rate.
@@ -159,6 +163,7 @@ Output:
              4. Use all available tools including the code tool
    
      ### AI Agent's Response:
+     
      1. Net Present Value (NPV): The NPV of the investment is approximately $206,512.21.
         
      3. Internal Rate of Return (IRR): The calculated IRR for this investment is approximately 18.33%.
@@ -166,7 +171,9 @@ Output:
      5. Financial Viability: Since the NPV is positive and the IRR exceeds the discount rate of 8%, the project is considered financially viable.
         
     Summary:
+    
         • NPV: $206,512.21
+        
         • IRR: 18.33%
         
         If you have any more questions or need further assistance, feel free to ask!
@@ -183,7 +190,9 @@ Prompt:
 A product sells for $120, costs $45 per unit to make, and fixed costs are $250,000. How many units do we need to break even?
 
 Agent Reasoning:
+
     • Identifies break-even formula: Fixed Costs ÷ (Price – Variable Cost).
+    
     • Uses Calculator Tool to compute.
     
 Output:
@@ -205,6 +214,7 @@ Output:
       1. Break-Even Point:
       
         ◦ The break-even point is approximately 3,334 units.
+        
         ◦ In terms of dollars, the break-even revenue can be calculated as: [ \text{Break-Even Revenue} = \text{Break-Even Units} \times \text{Selling Price} = 3344 \times 120 \approx $400,000 ]
         
       2. To earn a profit of $100,000, you need to sell approximately 4,667 units.
@@ -235,6 +245,7 @@ Agent Reasoning:
 Output:
 
     • ROI = 150%
+    
     • Payback period = < 1 year
     
     • ✅ Campaign is highly profitable.
@@ -274,6 +285,7 @@ Prompt:
 
 For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment and total interest paid.
     Agent Reasoning:
+    
         • Uses Code Tool (Python) with amortization formula.
         
     Output:
@@ -346,6 +358,7 @@ Agent Reasoning:
     • Simple arithmetic via Calculator Tool.
     
 Output:
+
     • Profit = $200,000
     
     • ✅ Clear margin-based decision-making.
@@ -365,19 +378,27 @@ Output:
     1. New Break-Even Point:
     
         ◦ New selling price = $35
+        
         ◦ Variable cost per unit = $20
+        
         ◦ Contribution Margin per unit = Selling Price - Variable Cost = $35 - $20 = $15
+        
         ◦ Break-even point in units = Fixed Costs / Contribution Margin = $100,000 / $15 = 6,667 units.
         
     2. Additional Units to Maintain Profit Level:
     
         ◦ Current profit can be calculated as: [ \text{Current Profit} = (\text{Selling Price} - \text{Variable Cost}) \times \text{Current Units Sold} - \text{Fixed Costs} ]
+        
         ◦ Current profit = ((40 - 20) \times 5,000 - 100,000 = 100,000 - 100,000 = 0) (this indicates zero profit at current pricing).
+        
         ◦ To maintain the same profit level after reducing the price, calculate the new required volume: [ \text{New Required Volume} = ( 100,000 + \text{Fixed Costs}) / (\text{New Selling Price} - \text{Variable Cost}) ]
+        
         ◦ Additional Units to Sell = New Required Volume - Current Volume = 6,667 - 5,000 = 1,667 additional units.
 
     Summary:
+    
     • New Break-Even Point: 6,667 units
+    
     • Additional Units to Maintain Same Profit Level: 1,667 units
     
     If you have further questions or need more assistance, feel free to ask!
