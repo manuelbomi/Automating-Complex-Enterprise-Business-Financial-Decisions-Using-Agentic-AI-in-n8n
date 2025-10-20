@@ -1,6 +1,6 @@
 # Automating Complex Enterprise Business & Financial Decisions Using Agentic AI in n8n
 
-## Overview  📌 
+## Overview   
 #### This repository contains an Agentic AI workflow built in n8n that automates complex enterprise business and financial decision-making. The workflow leverages large language models (LLMs), tools (calculator & code execution), and memory to analyze scenarios, generate insights, and provide actionable recommendations — all in real-time.
 
 ### The workflow, designed in n8n is shown below:
@@ -19,7 +19,7 @@
 ##### In additional, we provide step by step method regarding how you can design the workflow in-house, in n8n for your enterprise use cases. 
 
 
-## Key Features  🚀 
+## Key Features  
     • Agentic AI Orchestration
         ◦ LLM-powered reasoning using OpenAI’s gpt-4o-mini.
         ◦ Context-aware memory for handling multi-step conversations.
@@ -37,14 +37,14 @@
         ◦ Extensible with vector databases (e.g., Pinecone) for Retrieval-Augmented Generation (RAG) when connected to enterprise data sources.
         ◦ Modular design: additional tools and APIs can be added seamlessly.
 
-## Example Enterprise Use Cases  📊
+## Example Enterprise Use Cases 
     1. Investment Evaluation: Automatically compute project viability using NPV & IRR.
     2. Operational Strategy: Run break-even and profit margin analyses for new products.
     3. Marketing Optimization: Forecast ROI and payback period for campaigns.
     4. Financial Risk Management: Analyze loans, interest payments, and debt strategies.
     5. Pricing & Profitability Decisions: Model “what-if” scenarios for product pricing.
 
-## Workflow Structure  🛠️ 
+## Workflow Structure  
 
 The workflow is composed of:
 
@@ -60,7 +60,7 @@ The workflow is composed of:
     
     • Code Tool (Python) – For advanced computations like IRR, amortization, and forecasting.
 
-## Repository Contents  📂 
+## Repository Contents   
     • Agentic_AI_workflow_1_Calculator.json → n8n workflow file (import directly into n8n).
     • Example financial decision prompts and AI outputs (see below).
     • Python evaluation of the examples
@@ -85,7 +85,7 @@ When extended with vector databases, enterprises can achieve:
     
     • Lower total cost of ownership by avoiding repeated retraining of models.
 
-## Getting Started 📥
+## Getting Started 
     1. Clone this repo.
     2. Import the workflow file into your n8n instance:
         ◦ Go to n8n → Workflows → Import from File.
@@ -121,7 +121,7 @@ When extended with vector databases, enterprises can achieve:
 ---
 
 
-## Future Extensions 🔮 
+## Future Extensions  
     • Vector Database Integration (e.g., Pinecone, Weaviate) for enterprise data access.
     • RAG-powered Finance Assistant capable of retrieving company-specific KPIs.
     • Integration with BI dashboards for automated reporting.
@@ -129,7 +129,7 @@ When extended with vector databases, enterprises can achieve:
 
 
 
-## Usage Examples  💡 
+## Usage Examples   
 Below are some examples of how the workflow can be used to automate enterprise business and financial decisions. Each example shows the user’s prompt, how the Agent reasons, and the final output.
 
 ### 1. Investment Analysis (NPV & IRR)
@@ -149,7 +149,7 @@ Output:
     
     • IRR ≈ 14.5%
     
-    • ✅ The project is financially viable since IRR > discount rate.
+    •  The project is financially viable since IRR > discount rate.
 
 ### Example of how the question was posed at the Agent's prompt:
     I am evaluating a business expansion project that requires an upfront investment of $800,000 and will generate annual cash flows of $150,000 for 10 years. The discount rate is 8%.
@@ -198,7 +198,7 @@ Agent Reasoning:
 Output:
     • Break-even units = 3330
     
-    • ✅ The business needs to sell 625 units to cover costs. 
+    •  The business needs to sell 625 units to cover costs. 
 
 
 ### Example of how the question was posed at the Agent's prompt:
@@ -248,7 +248,7 @@ Output:
     
     • Payback period = < 1 year
     
-    • ✅ Campaign is highly profitable.
+    •  Campaign is highly profitable.
 
 
 ### Example of how the question was posed at the Agent's prompt:
@@ -294,7 +294,7 @@ For a $200,000 loan at 6% interest over 20 years, calculate the monthly payment 
     
     • Total Interest ≈ $143,680
     
-    • ✅ Useful for debt strategy planning.
+    •  Useful for debt strategy planning.
 
 
 ### Example of how the question was posed at the Agent's prompt:
@@ -361,7 +361,7 @@ Output:
 
     • Profit = $200,000
     
-    • ✅ Clear margin-based decision-making.
+    •  Clear margin-based decision-making.
 
 
 ### Example of how the question was posed at the Agent's prompt:
@@ -426,7 +426,7 @@ Output:
 
 
 
-## Why This Matters for Enterprise Applications 🎯 
+## Why This Matters for Enterprise Applications 
 
 #### These examples show how Agentic AI workflows in n8n can handle complex business and financial decisions without requiring specialized financial software. 
 
