@@ -16,7 +16,7 @@
 
 ##### We also provide several financial and business use cases and examples. 
 
-##### In additional, we provide step by step method regarding how you can design the workflow in-house, in n8n for your enterprise use cases. 
+##### In additional, we provide step by step method regarding how you can design the workflow in-house, in n8n for your enterprise use cases.
 
 
 ## Key Features  
